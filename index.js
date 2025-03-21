@@ -50,10 +50,10 @@ ul1.style.widht="900px"
 ul1.style.height="900px"
 ul1.style.textDecoration="none";
 ul1.style.fontFamily = "Open sans"
+ul1.style.listStyleType = "none"
 // ul1.style.display="flex";
 // ul1.style.flex-direction = "column"
 
 // ul1.style.justifyContent="space-between"
 // ul1.style.justifyContent= "center"
 // ul1.style.alignItems="center"
-// ul1.style.gap="10px"
