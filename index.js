@@ -27,9 +27,9 @@ for (let i = 0; i < tab.length; i++) {
     l.innerText = tab[i];
 }
 
-ul1.style.color = "red"
+ul1.style.color = "white"
 
-// ul1.style.backgroundColor = "gray"
+ ul1.style.backgroundColor = "black"
 ul1.style.fontSize = "50px"
 ul1.style.widht = "900px"
 ul1.style.height = "900px"
