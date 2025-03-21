@@ -2,7 +2,7 @@ let body=document.querySelector("body")
  let ul1=document.createElement("ul")
 
 body.appendChild(ul1)
-// body.innerHTML="<ul></ul>"
+
 
 
 let l1 = document.createElement("li")
@@ -10,7 +10,7 @@ let l2 = document.createElement("li")
 let l3 = document.createElement("li")
 let l4 = document.createElement("li")
 
-// let tab=[l1,l2,l3,l4]
+
 
 
 
@@ -30,7 +30,7 @@ let mes1=prompt("entrez du text")
 
 
 
-// l1.innerText= mes1;
+
 
 let tab=mes1.split(",")
 
