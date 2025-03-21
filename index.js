@@ -4,21 +4,18 @@ let ul1 = document.createElement("ul")
 body.appendChild(ul1)
 
 
-
-
-let l1 = document.createElement("li")
+let mes1 = prompt("entrez du text")
 
 for (let i = 1; i <= 4; i++) {
-    l1 = document.createElement("li")
+    let l1 = document.createElement("li")
     ul1.appendChild(l1)
     l1.className = "item-" + i
     if (i == 4) {
         ul1.removeChild(l1);
+    } else if(i==1){
+        l1.innerText =mes1
     }
 }
-
-
-let mes1 = prompt("entrez du text")
 
 let tab = mes1.split(",")
 
